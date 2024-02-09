@@ -1,0 +1,112 @@
+.home-styled {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .home-image {
+        position: absolute;
+        width: 65%;
+        height: 100%;
+        object-fit: cover;
+        bottom: 0;
+        z-index: 1;
+    }
+
+    .home-data {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 100px 125px 100px;
+        z-index: 888;
+        gap: 115px;
+
+        .data-left {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
+            h4 {
+                font-weight: 500;
+                letter-spacing: 5px;
+            }
+
+            .lines {
+                position: relative;
+                background: var(--dark-gray);
+                height: 2px;
+                width: 50%;
+                margin: 15px 0;
+
+                span {
+                    position: absolute;
+                    background: var(--color);
+                    height: 100%;
+                    width: 70%;
+                }
+            }
+
+            span {
+                font-size: 14px;
+                color: var(--dark-gray);
+            }
+        }
+
+        .data-right {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+
+            h1 {
+                font-family: 'Basetica';
+                font-size: 72px;
+                line-height: 73px;
+            }
+
+            p {
+                width: 450px;
+                opacity: .75;
+
+                span {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .home-styled {
+
+        .home-image {
+            width: 100%;
+            height: 65%;
+            bottom: unset;
+            top: 100px;
+        }
+
+        .home-data {
+            grid-template-columns: 1fr;
+            padding: 25px 25px 125px 25px;
+
+            .data-left {
+                display: none;
+            }
+
+            .data-right {
+            gap: 25px;
+
+                h1 {
+                    font-size: 50px;
+                    line-height: 50px;
+                }
+
+                p {
+                    width: 100%;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}
