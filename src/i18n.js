@@ -27,7 +27,7 @@ i18n
             escapeValue: false, // not needed for react as it escapes by default
         },
         backend: {
-            loadPath: '/web_final/locales/{{lng}}/{{ns}}.json'
+            loadPath: 'https://vladikemmet.github.io/web_final/locales/{{lng}}/{{ns}}.json'
         }
     });
 
