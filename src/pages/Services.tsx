@@ -55,26 +55,26 @@ const Services = () => {
                 <section id='services' ref={ref}>
                     <motion.div className="services-container">
                         <Row data-aos='fade-right' data-aos-duration={'1000'} data-aos-offset={'400'} className={'mb-5 row-container'} id={'row1'}>
-                            <Col className={'col-md-5'}>
+                            <Col className={'col-md-5 col-12'}>
                                 <img src={service1} alt={'Service1'} className={'rounded-left'}/>
                             </Col>
-                            <Col className={'col-md-7 d-flex flex-column justify-content-center'}>
+                            <Col className={'col-md-7 col-sm12 d-flex flex-column justify-content-center'}>
                                 <p>{textCards[0]}</p>
                             </Col>
                         </Row>
                         <Row data-aos='fade-left' data-aos-duration={'1000'} data-aos-offset={'400'} className={'justify-content-end mb-5 row-container rounded-left'}>
-                            <Col className={'col-md-7 d-flex flex-column justify-content-center'}>
+                            <Col className={'col-md-7 col-sm12 d-flex flex-column justify-content-center'}>
                                 <p>{textCards[1]}</p>
                             </Col>
-                            <Col className={'col-md-5'}>
+                            <Col className={'col-md-5 col-12'}>
                                 <img src={service2} alt={'Service2'} className={'rounded-right'}/>
                             </Col>
                         </Row>
                         <Row data-aos='fade-right' data-aos-duration={'1000'} data-aos-offset={'400'} className={'mb-5 row-container'}>
-                            <Col className={'col-md-5'}>
+                            <Col className={'col-md-5 col-12'}>
                                 <img src={service3} alt={'Service3'} className={'rounded-left'}/>
                             </Col>
-                            <Col className={'col-md-7 d-flex flex-column justify-content-center'}>
+                            <Col className={'col-md-7 col-12 d-flex flex-column justify-content-center'}>
                                 <p>{textCards[2]}</p>
                             </Col>
                         </Row>

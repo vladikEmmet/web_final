@@ -3,7 +3,7 @@ import Home from './pages/Home'
 import Sidebar from './components/Sidebar'
 import './style/Global.scss'
 import {
-    createBrowserRouter,
+    createBrowserRouter, Outlet,
     RouterProvider,
 } from "react-router-dom";
 import Navbar from "./components/Navbar";
@@ -42,7 +42,6 @@ const App = () => {
             <Sidebar />
             <RouterProvider router={router}>
                 <Navbar />
-                {/*<Home />*/}
             </RouterProvider>
             <Footer />
         </div>

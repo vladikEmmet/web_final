@@ -23,6 +23,10 @@
 
     .row-container {
       margin-top: 150px!important;
+
+      @media only screen and (max-width: 600px) {
+        justify-content: center;
+      }
     }
   }
 }

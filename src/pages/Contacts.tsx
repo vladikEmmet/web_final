@@ -47,7 +47,7 @@ const Contacts = () => {
                 <section ref={sectionRef1} id='contacts'>
                     <motion.div className={'contact-container'} style={{ opacity, y }}>
                         <Row className={'justify-content-between info-container'}>
-                            <Col className={'border-end'}>
+                            <Col className={'border-end left'}>
                                 <h2 className={"mb-4"}>
                                     {t('contacts.locations.title')}
                                 </h2>
@@ -79,7 +79,7 @@ const Contacts = () => {
                                     </Col>
                                 </Row>
                             </Col>
-                            <Col className={"border-start"}>
+                            <Col className={"border-start right"}>
                                 <h2 className={"mb-5"}>{t('contacts.contacts.title')}</h2>
                                 <Row className={"mb-4"}>
                                     <Col className={'col-md-2 d-flex justify-content-center align-items-center'}>
