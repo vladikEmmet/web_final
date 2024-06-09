@@ -1,7 +1,8 @@
 .contact-styled {
     background: var(--rgb);
     backdrop-filter: blur(8px);
-    position: absolute;
+    //position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -20,6 +21,15 @@
         .left-locations {
             display: flex;
             gap: 75px;
+
+            a {
+                text-decoration: none;
+                color: var(--white);
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
         }
 
         h3 {
@@ -44,8 +54,9 @@
                 height: 7.5px;
                 border-radius: 10px;
                 background: var(--dark-gray);
+                cursor: pointer;
 
-                &:first-child {
+                &.active {
                     content: '';
                     display: block;
                     width: 7.5px;
@@ -54,14 +65,14 @@
                     background: var(--color);
                 }
 
-                &:last-child {
-                    content: '';
-                    display: block;
-                    width: 7.5px;
-                    height: 7.5px;
-                    border-radius: 10px;
-                    background: var(--dark-gray);
-                }
+                //&:last-child {
+                //    content: '';
+                //    display: block;
+                //    width: 7.5px;
+                //    height: 7.5px;
+                //    border-radius: 10px;
+                //    background: var(--dark-gray);
+                //}
             }
         }
     }
@@ -77,6 +88,7 @@
                 position: absolute;
                 height: 100%;
                 object-fit: cover;
+                opacity: 0.85;
             }
         }
 

@@ -3,11 +3,33 @@
     align-items: center;
     justify-content: space-between;
     padding: 18px 100px;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 999;
+    z-index: 777;
+
+
+    .search {
+        cursor: pointer;
+        transition: 0.4s color ease;
+
+        &.active {
+            color: var(--color);
+        }
+    }
+
+    .search-input {
+        background: var(--white);
+        border-radius: 8px;
+        border: none;
+        outline: none;
+        width: 350px;
+        padding: 10px;
+        height: 40px;
+        color: black;
+        font-size: 1.1rem;
+    }
 
     .logo {
         font-family: 'Basetica';
@@ -25,11 +47,13 @@
             align-items: center;
             gap: 55px;
 
-            span {
+            a {
                 cursor: pointer;
+                text-decoration: none;
+                color: var(--white);
                 position: relative;
 
-                &:first-child {
+                &.active {
                     color: var(--color);
 
                     &::after {

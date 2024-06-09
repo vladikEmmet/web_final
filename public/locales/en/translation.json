@@ -1,0 +1,265 @@
+{
+  "titles": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About us",
+    "contacts": "Contacts",
+    "certifications": "Certifications"
+  },
+  "navbar": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contacts": "Contacts",
+    "certifications": "Certifications",
+    "search": "Search..."
+  },
+  "parallaxMainLeft": {
+    "medicalCenter": "Medical Center",
+    "outOfWhite": "Out Of White",
+    "contactUs": "Contact Us"
+  },
+  "home": {
+    "title1": ["Medical", "Center"],
+    "subtitle1": "More than 10 years of medical practice and thousands of satisfied patients. Vladislav Medical Clinic provides a wide range of services: from professional teeth cleaning to laser surgeries",
+    "title2": ["Out of", "White"],
+    "subtitle2": "We believe that white is banal and boring. We are supporters of a non-standard approach. Even the design of our website is made in dark colors",
+    "title3": ["Contact", "Us"],
+    "subtitle3": "Our technical support and reception specialists will help you with any questions: from employment to making an appointment with a doctor"
+  },
+  "buttons": {
+    "learnMore": "Learn more",
+    "certifications": "Certifications",
+    "contactUs": "Contact Us"
+  },
+  "footer": {
+    "designedBy": ["Designed by", "Vladislav Obedkov"],
+    "news": {
+      "title": "News",
+      "subtitle": "Latest events in our clinic and in the field of medicine in general",
+      "readMore": "Read More"
+    },
+    "phone": "Phone",
+    "address": {
+      "title": "Address",
+      "value": "Pushkina street 23, Almaty, Kazakhstan"
+    },
+    "reception": "Reception"
+  },
+  "ourServices": {
+    "title": ["Our", "Services"],
+    "subtitle": "VMC consists of 3 main buildings, each of which contains all the necessary equipment. This allows us to provide a wide range of quality services",
+    "text": [
+      "At our medical company, we are proud of our highly qualified specialists who use the latest technologies and techniques for diagnosis and treatment. Our doctors regularly undergo training and improve their skills to always be aware of the latest medical advances.\n\nWe offer a wide range of medical services, from preventive examinations to complex surgical interventions. Our patients can be confident that they receive an individual approach and attentive attention at every stage of treatment.",
+      "Our company uses advanced medical equipment that allows for accurate and quick diagnosis. This gives our patients confidence in the correctness of the diagnosis and the effectiveness of subsequent treatment.\n\nWe strive to constantly improve the quality of services provided by introducing innovative methods and approaches. Our patients can always count on a modern approach and a high level of professionalism.",
+      "We take care of our patients, providing comfortable conditions and a friendly atmosphere. Our specialists are always ready to answer any questions and provide the necessary support at all stages of treatment.\n\nOur goal is not only to treat, but also to prevent diseases. We offer a variety of prevention and wellness programs to help our patients stay healthy for years to come."
+    ],
+    "ourServicesSection": {
+      "title": "Our services",
+      "dentistry": {
+        "title": "Dentistry",
+        "subpoints": [
+          {
+            "title": "Treatment of dental diseases",
+            "points": ["Treatment of caries", "Treatment of pulpits", "Treatment of periodontitis"]
+          },
+          {
+            "title": "Teeth cleaning",
+            "points": ["Tartar removal", "Professional hygienic cleaning of teeth (dental plaque)"]
+          },
+          {
+            "title": "Children's dentistry",
+            "points": ["Removal of baby teeth", "Prevention of caries in baby teeth", "Treatment of baby teeth"]
+          },
+          {
+            "title": "Diagnostics",
+            "points": ["Consultation of a dentist", "Consultation of a dental surgeon", "Consultation of an orthodontist"]
+          }
+        ]
+      },
+      "cardiology": {
+        "title": "Cardiology",
+        "subpoints": [
+          {
+            "title": "Heart diseases treatment",
+            "points": ["Coronary artery disease treatment", "Heart failure treatment", "Arrhythmia treatment"]
+          },
+          {
+            "title": "Diagnostics",
+            "points": ["ECG", "Stress tests", "Echocardiography"]
+          },
+          {
+            "title": "Preventive Care",
+            "points": ["Blood pressure monitoring", "Cholesterol management", "Lifestyle counseling"]
+          }
+        ]
+      },
+      "orthopedics": {
+        "title": "Orthopedics",
+        "subpoints": [
+          {
+            "title": "Joint treatment",
+            "points": ["Arthritis treatment", "Joint replacement", "Physical therapy"]
+          },
+          {
+            "title": "Spine treatments",
+            "points": ["Herniated disc treatment", "Scoliosis treatment", "Spinal fusion surgery"]
+          },
+          {
+            "title": "Sports injuries",
+            "points": ["ACL reconstruction", "Meniscus repair", "Shoulder surgery"]
+          }
+        ]
+      },
+      "dermatology": {
+        "title": "Dermatology",
+        "subpoints": [
+          {
+            "title": "Skin disease treatment",
+            "points": ["Acne treatment", "Psoriasis treatment", "Eczema treatment"]
+          },
+          {
+            "title": "Cosmetic procedures",
+            "points": ["Botox injections", "Laser skin resurfacing", "Microdermabrasion"]
+          },
+          {
+            "title": "Skin cancer screening",
+            "points": ["Melanoma screening", "Basal cell carcinoma screening", "Squamous cell carcinoma screening"]
+          }
+        ]
+      },
+      "neurology": {
+        "title": "Neurology",
+        "subpoints": [
+          {
+            "title": "Neurological disease treatment",
+            "points": ["Parkinson's disease treatment", "Alzheimer's disease treatment", "Multiple sclerosis treatment"]
+          },
+          {
+            "title": "Diagnostics",
+            "points": ["MRI", "CT scan", "EEG"]
+          },
+          {
+            "title": "Stroke care",
+            "points": ["Emergency treatment", "Rehabilitation", "Preventive measures"]
+          }
+        ]
+      }
+    }
+  },
+  "aboutUs": {
+    "title": ["About us"],
+    "subtitle": "VMC is a medical center with more than a ten-year history of successful medical practice",
+    "advantages": [
+      {
+        "title": "Comprehensive Care",
+        "description": "Offering a full range of healthcare services to meet all patient needs, ensuring you receive the best possible care."
+      },
+      {
+        "title": "Advanced Technology",
+        "description": "Utilizing state-of-the-art medical technology to ensure precise diagnostics and effective treatments."
+      },
+      {
+        "title": "Experienced Specialists",
+        "description": "Featuring a team of highly qualified and experienced medical professionals dedicated to patient health."
+      },
+      {
+        "title": "Patient-Centered Approach",
+        "description": "Focusing on individual patient needs, preferences, and values, ensuring personalized and compassionate care."
+      },
+      {
+        "title": "Convenient Location",
+        "description": "Located in a prime area with easy access to public transportation, parking, and other amenities."
+      },
+      {
+        "title": "Emergency Services",
+        "description": "Providing 24/7 emergency care to address critical health needs promptly and effectively."
+      }
+    ],
+    "cards": [
+      "Our medical company has existed for more than ten years and during this time has established itself as a reliable partner in the healthcare sector. We provide a wide range of services to ensure our patients receive quality treatment and care.",
+      "We are proud of our team of experienced and qualified specialists who work for the benefit of our patients. Their professionalism and attentive attitude guarantee a high level of medical care.",
+      "Our clinic is equipped with modern equipment, which allows us to provide accurate diagnosis and effective treatment. We are constantly introducing new technologies to ensure our patients receive the best results.",
+      "Our focus is always on the patient and his health. We take an individual approach to everyone, providing comprehensive and personalized medical care.",
+      "We strive to create comfortable conditions for our patients so that a visit to our clinic is as pleasant and convenient as possible. Our friendly and professional team is always ready to help you with any questions related to your health."
+    ],
+    "square": "Take care of your health",
+    "squareEnd": ["Take Care", "of", "Your Health"],
+    "lockSection": {
+      "staySafe": "Stay safe.",
+      "goToClinic": ["Go to the clinic", "you love."],
+      "text": {
+        "first": "Leading specialists and the most modern technologies. Check out our",
+        "link1": "services",
+        "second": "or",
+        "link2": "contact us",
+        "third": "for help and advice."
+      }
+    }
+  },
+  "contacts": {
+    "title": "Contacts",
+    "subtitle": "Experienced technical support and reception staff will answer any of your questions",
+    "locations": {
+      "title": "Locations",
+      "addresses": [
+        {
+          "title": "Head Office",
+          "address": "Pushkina street, 23, Almaty, Kazakhstan"
+        },
+        {
+          "title": "Diagnostic Center",
+          "address": "Pushkina street, 22, Almaty, Kazakhstan"
+        },
+        {
+          "title": "Procedure Center",
+          "address": "Pushkina street, 21, Almaty, Kazakhstan"
+        }
+      ]
+    },
+    "contacts": {
+      "title": "Contacts Info",
+      "info": ["Phone", "Email", "Employment"]
+    },
+    "form": {
+      "title": "Contact Form",
+      "firstName": {
+        "title": "First name",
+        "placeholder": "Otto",
+        "invalid": "Please provide valid name"
+      },
+      "phone": {
+        "title": "Phone number",
+        "invalid": "Please provide valid phone number"
+      },
+      "checkBox": {
+        "title": "Agree to terms and conditions",
+        "invalid": "You must agree before submitting"
+      },
+      "button": "Submit form",
+      "modal": {
+        "head": "Form submitted successfully",
+        "body": "We will contact you as soon as possible",
+        "close": "Close"
+      }
+    }
+  },
+  "certifications": {
+    "title": "Certifications",
+    "subtitle": "VMC has passed all the necessary stages of accreditation, and our center’s specialists regularly take advanced training courses",
+    "licences": [
+      {
+        "title": "Medical License for Vladislav Medical Center",
+        "description": "Confirms the right to carry out medical activities"
+      },
+      {
+        "title": "License for pharmaceutical activities",
+        "description": "Allows wholesale sales of medicines"
+      },
+      {
+        "title": "License for surgical assistance",
+        "description": "Allows to carry out medical activities through surgery"
+      }
+    ]
+  }
+}

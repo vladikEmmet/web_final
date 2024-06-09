@@ -1,8 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    color: var(--white) !important;
+    //overflow: hidden !important;
+}
+
+.scrolled-mandatory {
+    scroll-snap-type: y mandatory !important;
+    height: 100vh;
+    overflow-y: scroll;
+    width: 100vw;
+
+    &.parallax-active {
+        //scroll-snap-type: none !important;
+    }
+
+    .slide {
+        scroll-snap-align: start;
+        width: 100%;
+        position: relative;
+        height: 100vh;
+    }
+}
+
+//.parallax-container {
+//    scroll-snap-align: center !important;
+//    width: 100vw;
+//    height: 100vh;
+//}
 
 @font-face {
     font-family: 'Apercu Pro';
@@ -63,6 +98,13 @@ h5 {
     background: var(--gradient);
     letter-spacing: 1px;
     overflow: hidden;
+
+    &.overflow {
+        overflow: unset;
+        //@media only screen and (min-width: 2000px) {
+        //    overflow: hidden;
+        //}
+    }
 }
 
 @media (max-width: 600px) {
@@ -71,7 +113,27 @@ h5 {
     }
 }
 
+@import '~bootstrap/scss/bootstrap';
 @import './Sidebar.scss';
 @import './Home.scss';
 @import './Navbar.scss';
 @import './Contact.scss';
+@import './Certificates.scss';
+@import './Contacts.scss';
+@import './CustomModal.scss';
+@import './FormContacts.scss';
+@import './Services.scss';
+@import './About.scss';
+@import './NoLockin.scss';
+
+@layer utilities {
+    /* This two helpers apply a -50% to the translate x/y, and add
+     * a --y/--x css variable to it. This util is only here to make writing this class
+     * a bit easier to read in the HTML :)   */
+    .translate-y-centered-offset {
+        @apply translate-y-[calc(-50%_+_var(--y))];
+    }
+    .translate-x-centered-offset {
+        @apply translate-x-[calc(-50%_+_var(--x))];
+    }
+}

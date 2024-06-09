@@ -1,42 +1,51 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
-import BG from '../assets/bag-01.png'
-import Contact from '../components/Contact'
-import { motion } from 'framer-motion'
+import React, {useEffect} from 'react';
+import Navbar from '../components/Navbar';
+import BG2 from '../assets/doctor-main.png';
+import BG3 from '../assets/dotor-certificates.png';
+import BG from '../assets/doctor-contacts.png'
+import { ParallaxMain } from "../components/ParallaxMain.tsx";
+import {useTranslation} from "react-i18next";
+
+const slides = [
+    {
+        id: 0,
+        title: ['Medical', 'Center'],
+        subtitle: 'More than 10 years of medical practice and thousands of satisfied patients. Vladislav Medical Clinic provides a wide range of services: from professional teeth cleaning to laser surgeries',
+        image: BG2
+    },
+    {
+        id: 1,
+        title: ['Out of', 'White'],
+        subtitle: 'We believe that white is banal and boring. We are supporters of a non-standard approach. Even the design of our website is made in dark colors',
+        image: BG3
+    },
+    {
+        id: 2,
+        title: ['Contact', 'Us'],
+        subtitle: 'Our technical support and reception specialists will help you with any questions: from employment to making an appointment with a doctor',
+        image: BG
+    }
+];
 
 const Home = () => {
-    return (
-        <div className='home-styled'>
-            <Navbar />
-            <img className='home-image' src={BG} alt="Bg" />
-            <div className='home-data'>
-                <motion.div className='data-left'
-                    initial={{opacity: 0, x:-50}}
-                    animate={{opacity: 1, x:0}}
-                    transition={{duration: .5, delay: .75}}
-                >
-                    <h4>/01</h4>
-                    <div className='lines'>
-                        <span />
-                    </div>
-                    <p>Work Collection</p>
-                    <span>Active Collection</span>
-                    <span>Travel Collection</span>
-                </motion.div>
+    const [t] = useTranslation();
 
-                <motion.div
-                    className='data-right'
-                    initial={{opacity: 0, y:50}}
-                    animate={{opacity: 1, y:0}}
-                    transition={{duration: .5, delay: .5}}
-                >
-                    <h1>Work<br />Anywhere</h1>
-                    <p>Introducing the Work Collection, a line of minimalist bags designed for a <span>new generation specifically for the modern professional</span></p>
-                </motion.div>
+    useEffect(() => {
+        document.title = `${t('titles.home')} | VMC`;
+    }, [t]);
+
+    return (
+        <>
+            <Navbar />
+            <div className={`scrolled-mandatory`}>
+                {slides.map(slide =>
+                    <ParallaxMain id={slide.id} img={slide.image} title={t(`home.title${slide.id + 1}`, {returnObjects: true})} subtitle={t(`home.subtitle${slide.id + 1}`)} key={slide.id}/>
+                )}
             </div>
-            <Contact />
-        </div>
-    )
+        </>
+    );
 }
 
-export default Home
+export default Home;
+
+
