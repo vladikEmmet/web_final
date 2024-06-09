@@ -12,7 +12,6 @@ html, body {
     height: 100%;
     margin: 0;
     color: var(--white) !important;
-    //overflow: hidden !important;
 }
 
 .scrolled-mandatory {
@@ -21,9 +20,6 @@ html, body {
     overflow-y: scroll;
     width: 100vw;
 
-    &.parallax-active {
-        //scroll-snap-type: none !important;
-    }
 
     .slide {
         scroll-snap-align: start;
@@ -32,12 +28,6 @@ html, body {
         height: 100vh;
     }
 }
-
-//.parallax-container {
-//    scroll-snap-align: center !important;
-//    width: 100vw;
-//    height: 100vh;
-//}
 
 @font-face {
     font-family: 'Apercu Pro';
@@ -65,7 +55,6 @@ html, body {
 
 :root {
 
-    // Colors
     --gradient: linear-gradient(-45deg, #161618, #313132);
     --white: #fff;
     --black: #000;
@@ -101,9 +90,9 @@ h5 {
 
     &.overflow {
         overflow: unset;
-        //@media only screen and (min-width: 2000px) {
-        //    overflow: hidden;
-        //}
+        @media only screen and (min-width: 2000px) {
+            overflow: hidden;
+        }
     }
 }
 
@@ -126,14 +115,3 @@ h5 {
 @import './About.scss';
 @import './NoLockin.scss';
 
-@layer utilities {
-    /* This two helpers apply a -50% to the translate x/y, and add
-     * a --y/--x css variable to it. This util is only here to make writing this class
-     * a bit easier to read in the HTML :)   */
-    .translate-y-centered-offset {
-        @apply translate-y-[calc(-50%_+_var(--y))];
-    }
-    .translate-x-centered-offset {
-        @apply translate-x-[calc(-50%_+_var(--x))];
-    }
-}
