@@ -34,7 +34,7 @@ const router = createBrowserRouter([
         path: '/certificates',
         element: <Certificates />,
     },
-], {basename: '/'});
+], {basename: '/web_final'});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
