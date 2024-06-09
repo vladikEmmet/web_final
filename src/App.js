@@ -15,32 +15,32 @@ import Contacts from "./pages/Contacts";
 
 const router = createBrowserRouter([
     {
-        path: '/web_final',
+        path: '/',
         element: <Home />,
     },
     {
-        path: '/web_final/services',
+        path: '/services',
         element: <Services />,
     },
     {
-        path: '/web_final/about',
+        path: '/about',
         element: <About />,
     },
     {
-        path: '/web_final/contacts',
+        path: '/contacts',
         element: <Contacts />,
     },
     {
-        path: '/web_final/certificates',
+        path: '/certificates',
         element: <Certificates />,
     },
-]);
+], {basename: '/'});
 
 const App = () => {
     return (
         <div className='app-styled'>
             <Sidebar />
-            <RouterProvider router={router} >
+            <RouterProvider router={router}>
                 <Navbar />
             </RouterProvider>
             <Footer />
