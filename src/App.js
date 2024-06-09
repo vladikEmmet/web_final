@@ -13,15 +13,38 @@ import Services from "./pages/Services";
 import About from "./pages/About";
 import Contacts from "./pages/Contacts";
 
+const router = createBrowserRouter([
+    {
+        path: '/',
+        element: <Home />,
+    },
+    {
+        path: '/services',
+        element: <Services />,
+    },
+    {
+        path: '/about',
+        element: <About />,
+    },
+    {
+        path: '/contacts',
+        element: <Contacts />,
+    },
+    {
+        path: '/certificates',
+        element: <Certificates />,
+    },
+], {basename: '/web_final'});
+
 const App = () => {
     return (
         <div className='app-styled'>
-            {/*<Sidebar />*/}
-            {/*<RouterProvider router={router}>*/}
-            {/*    <Navbar />*/}
-            {/*</RouterProvider>*/}
-            {/*<Footer />*/}
-            <Home />
+            <Sidebar />
+            <RouterProvider router={router}>
+                <Navbar />
+                {/*<Home />*/}
+            </RouterProvider>
+            <Footer />
         </div>
     )
 }
