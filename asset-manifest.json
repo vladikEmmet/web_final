@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/web_final/static/css/main.3f808800.css",
+    "main.js": "/web_final/static/js/main.c3f45ab0.js",
+    "static/media/doctor-main.png": "/web_final/static/media/doctor-main.f570a524990c48dc9ea8.png",
+    "static/media/doctor-contacts.png": "/web_final/static/media/doctor-contacts.6401b377b5913921bd28.png",
+    "static/media/dotor-certificates.png": "/web_final/static/media/dotor-certificates.7ae0747da75958a8c293.png",
+    "static/media/about-img3.webp": "/web_final/static/media/about-img3.800d05b6014b3c319cbb.webp",
+    "static/media/license2.png": "/web_final/static/media/license2.21a764d4540dcda72ef5.png",
+    "static/media/license1.png": "/web_final/static/media/license1.859dc41744c8a5d55acf.png",
+    "static/media/license3.png": "/web_final/static/media/license3.d81bcfb673b208409fe5.png",
+    "static/media/service2.jpg": "/web_final/static/media/service2.10ccaeead0c790a6a8a7.jpg",
+    "static/media/about-img4.jpeg": "/web_final/static/media/about-img4.ca246579bf4f8e6feebf.jpeg",
+    "static/media/service1.jpg": "/web_final/static/media/service1.bebb36fb0bbc2ec41cd0.jpg",
+    "static/media/ApercuPro-Regular.ttf": "/web_final/static/media/ApercuPro-Regular.7c77e9a861a7190c54f0.ttf",
+    "static/media/ApercuPro-Medium.ttf": "/web_final/static/media/ApercuPro-Medium.9a30717193ce761e8dda.ttf",
+    "static/media/ApercuPro-Bold.ttf": "/web_final/static/media/ApercuPro-Bold.ed76cda37b0f1af96f8a.ttf",
+    "static/media/service3.jpeg": "/web_final/static/media/service3.27bb561d1ade832a5cd7.jpeg",
+    "static/media/Basetica-Medium.otf": "/web_final/static/media/Basetica-Medium.970869d05aa192d34e30.otf",
+    "static/media/about-img2.webp": "/web_final/static/media/about-img2.74450b33c7057cce6dc0.webp",
+    "static/media/bag-02.png": "/web_final/static/media/bag-02.c91f1bbacf764e4e3829.png",
+    "static/media/about-img5.jpeg": "/web_final/static/media/about-img5.ef171dcf095724c32c60.jpeg",
+    "index.html": "/web_final/index.html",
+    "static/media/getFetch.cjs": "/web_final/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
+    "main.3f808800.css.map": "/web_final/static/css/main.3f808800.css.map",
+    "main.c3f45ab0.js.map": "/web_final/static/js/main.c3f45ab0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f808800.css",
+    "static/js/main.c3f45ab0.js"
+  ]
+}
