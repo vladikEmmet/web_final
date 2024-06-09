@@ -15,23 +15,23 @@ import Contacts from "./pages/Contacts";
 
 const router = createBrowserRouter([
     {
-        path: '/',
+        path: '/web_final',
         element: <Home />,
     },
     {
-        path: '/services',
+        path: '/web_final/services',
         element: <Services />,
     },
     {
-        path: '/about',
+        path: '/web_final/about',
         element: <About />,
     },
     {
-        path: '/contacts',
+        path: '/web_final/contacts',
         element: <Contacts />,
     },
     {
-        path: '/certificates',
+        path: '/web_final/certificates',
         element: <Certificates />,
     },
 ]);
