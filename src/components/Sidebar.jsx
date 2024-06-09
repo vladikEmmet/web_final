@@ -26,7 +26,7 @@ const Sidebar = () => {
             >
                 <div className='social'>
                     <span onClick={() => i18n.changeLanguage('en-US')} className={i18n.language === 'en-US' ? 'text-[var(--color)]' : ''}>En</span>
-                    <span onClick={() => i18n.changeLanguage('ru-RU')} className={i18n.language === 'ru-RU' ? 'text-[var(--color)]' : ''}>Ru</span>
+                    <span onClick={() => i18n.changeLanguage('ru')} className={i18n.language === 'ru' ? 'text-[var(--color)]' : ''}>Ru</span>
                     <span onClick={() => i18n.changeLanguage('kz-KZ')} className={i18n.language === 'kz-KZ' ? 'text-[var(--color)]' : ''}>Kz</span>
                 </div>
             </motion.aside>
