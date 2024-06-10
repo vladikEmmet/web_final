@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/web_final/static/css/main.acc1d4cb.css",
-    "main.js": "/web_final/static/js/main.6d00b43a.js",
+    "main.css": "/web_final/static/css/main.96448e55.css",
+    "main.js": "/web_final/static/js/main.d244f098.js",
+    "static/media/background-music.mp3": "/web_final/static/media/background-music.262dd82b42c4e74fdc1e.mp3",
     "static/media/doctor-main.png": "/web_final/static/media/doctor-main.f570a524990c48dc9ea8.png",
     "static/media/doctor-contacts.png": "/web_final/static/media/doctor-contacts.6401b377b5913921bd28.png",
     "static/media/dotor-certificates.png": "/web_final/static/media/dotor-certificates.7ae0747da75958a8c293.png",
@@ -22,11 +23,11 @@
     "static/media/about-img5.jpeg": "/web_final/static/media/about-img5.ef171dcf095724c32c60.jpeg",
     "index.html": "/web_final/index.html",
     "static/media/getFetch.cjs": "/web_final/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
-    "main.acc1d4cb.css.map": "/web_final/static/css/main.acc1d4cb.css.map",
-    "main.6d00b43a.js.map": "/web_final/static/js/main.6d00b43a.js.map"
+    "main.96448e55.css.map": "/web_final/static/css/main.96448e55.css.map",
+    "main.d244f098.js.map": "/web_final/static/js/main.d244f098.js.map"
   },
   "entrypoints": [
-    "static/css/main.acc1d4cb.css",
-    "static/js/main.6d00b43a.js"
+    "static/css/main.96448e55.css",
+    "static/js/main.d244f098.js"
   ]
 }
